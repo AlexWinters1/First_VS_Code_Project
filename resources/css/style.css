@@ -1,3 +1,6 @@
 body{
-    background-color: #f1c9ff;
+    background: linear-gradient(to right, #ffc6cd, #f796b4,#ad83ff,#696ef1);
+    
+    font-family:Gill Sans;
+    
 }
