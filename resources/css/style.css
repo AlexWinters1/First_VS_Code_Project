@@ -1,6 +1,22 @@
-body{
-    background: linear-gradient(to right, #ffc6cd, #f796b4,#ad83ff,#696ef1);
-    
-    font-family:Gill Sans;
-    
-}
+body {
+    width: 100%;
+    height: 100vh;
+    background-size: 300% 300%;
+    background-image: linear-gradient(
+          -45deg, 
+          #ffc6cd 0%, 
+          #f796b4 25%, 
+          #ad83ff 51%, 
+          #696ef1 100%
+    );  
+    animation: AnimateBG 10s ease infinite;
+    font-family: Garamond;
+  }
+  
+  @keyframes AnimateBG { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
+
+  
